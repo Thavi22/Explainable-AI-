@@ -8,17 +8,17 @@ Neste trabalho, a missão foi utilizar um modelo preditivo para classificar clie
 
 ## Modelo Preditivo Utilizado 
 
- Para resolver o desafio, utilizei o conjunto de dados Statlog (German Credit Data), amplamente utilizado em pesquisas relacionadas a risco de crédito. Ele contém 1.000 registros e 20 atributos numéricos, incluindo:
- - Duraçâo do crédito
+Para resolver o desafio, utilizei o conjunto de dados Statlog (German Credit Data), amplamente utilizado em pesquisas relacionadas a risco de crédito. Ele contém 1.000 registros e 20 atributos numéricos, incluindo:
+ - Duração do crédito
  - Valor solicitado
  - Histórico de crédito
  - Saldo bancário
  - Tempo de residência
  - Idade, entre outros.
 
- O modelo escolhido foi o Random Forest Classifier, uma técnica de aprendizado supervisionado robusta e bastante utilizada para problemas de classificação. Após separar os dados em treino e teste (80% / 20%), o modelo obteve uma acurácia de 69,5%, o que já indica um desempenho razoável.
+O modelo escolhido foi o Random Forest Classifier, uma técnica de aprendizado supervisionado robusta e bastante utilizada para problemas de classificação. Após separar os dados em treino e teste (80% / 20%), o modelo obteve uma acurácia de 69,5%, o que já indica um desempenho razoável.
 
- ## Discussão Interpretativa com LIME 
+## Discussão Interpretativa com LIME 
 
 Após treinar o modelo, utilizei a biblioteca LIME para explicar previsões individuais.
 Na explicação de uma das amostras (cliente nº 10 do conjunto de teste), o modelo previu que o cliente era bom pagador com 70% de probabilidade.
